@@ -29,7 +29,7 @@ def get_infor(keyword,code,page):
 
 
 def main():
-    keys=['轮胎','厦门']
+    keys=['轮胎','汽修']
     for keyword in keys:
         f=open(keyword+'_tels.txt','a',encoding="utf-8")
         for line in open('city_ids.txt','r',encoding="utf-8").readlines():
